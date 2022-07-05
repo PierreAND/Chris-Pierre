@@ -5,3 +5,4 @@ birth_year=gets.to_i
  (year_today-birth_year).times do |year|
     puts "En #{birth_year +year} tu avais #{year} ans"
 end
+
