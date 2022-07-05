@@ -1,7 +1,6 @@
 puts "Donne un nombre bg"
 print "> "
-n = gets.chomp.to_i
-n.times do |i|
-  i.times{  |_| puts "Bonjour amigo"}
-  puts "#{i-1}"
-  end
+(gets.to_i - 1)
+.times do
+    puts "Salut, ca fart?"
+end
